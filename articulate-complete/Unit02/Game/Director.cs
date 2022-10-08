@@ -19,7 +19,7 @@ namespace Unit02.Game
         /// <summary>
         /// Constructs a new instance of Director.
         /// </summary>
-        public Director()
+        public Director() 
         {
             for (int i = 0; i < 5; i++)
             {
