@@ -42,6 +42,5 @@ namespace Unit02.Game
                 _points = 0;
             }
         }
-
     }
 }

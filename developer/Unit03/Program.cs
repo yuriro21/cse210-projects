@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Unit03
-{
+{ 
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            game.game newGame = new game.game();
+            newGame.startGame();
         }
     }
 }
