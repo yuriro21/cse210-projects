@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace Unit03.game;
 
-///The responsibility of parachute is to draw a figure and establish the condition to win or loss the game.
+///The responsibility of skydive is to draw a figure and establish the condition to win or lose the game.
 public class skydiver
 {
-    ///Construct a new instance for parachute
+    ///Construct a new instance for skydive
     public skydiver()
     {
     }

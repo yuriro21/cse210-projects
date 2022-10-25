@@ -9,7 +9,7 @@ public class secret_word
     //Create a list  
     private List<string> wordsList = new List<string>();
 
-    //Create a constuctor that initialize the list of words.
+    //Create a constructor that initializes the list of words.
     public secret_word() {
         string[] words = {"mango", "mouse", "pray", "code", "game", "nephi"};
         wordsList.AddRange(words);

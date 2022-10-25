@@ -7,12 +7,12 @@ namespace Unit03.game;
     public class game
     {   
         private List<char> userGuesses = new List<char>();
-        /// Constructs a new instance of Director.
+        /// Construct a new instance of game.
         public game()
         {
         }
 
-        //start the game by running the main game loop.
+        //Start the game by running the main game loop.
         public void startGame()
         {
             secret_word scretWord = new secret_word();
@@ -57,7 +57,7 @@ namespace Unit03.game;
 
         }
 
-        //draw a line with the length of the secret word.
+        //Draw a line with the length of the secret word.
         private void initializeState(string word)
         {
             for (int i = 0; i < word.Length; i++)
@@ -67,7 +67,7 @@ namespace Unit03.game;
             Console.WriteLine("\n");            
         }
 
-        //create a method that allow win the game when the user finds the secret word.
+        //Create a method that allows winning the game when the user finds the secret word.
         private bool isFound(string word, char guess)
         {
             for (int i = 0; i < word.Length; i++) {

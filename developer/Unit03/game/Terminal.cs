@@ -12,7 +12,7 @@ namespace Unit03.game;
 public class Terminal
 {
     /// <summary>
-    /// Constructs a new instance of Terminal.
+    /// Construct a new instance of Terminal.
     /// </summary>
     public Terminal()
     {
