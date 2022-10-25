@@ -65,6 +65,7 @@ public class skydiver
         }
     }
 
+    //draw the line of the secret word and iterate through them to determine if the correct char is in the word.
     public void printWordState (string word, List <char> letter)
     {
         foreach (char c in word)
